@@ -2,7 +2,7 @@
 #Contenedor
 {
     width: 400px;
-    height: 1000px;
+    height: 800px;
     background-color: rgba(144, 189, 248, 0.5);
     display: flex;
     justify-content: center;
