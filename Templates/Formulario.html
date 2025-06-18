@@ -12,12 +12,12 @@
     <div id="Contenedor">
     
         <h1 style="text-align: center;">Formulario Completo</h1>
-        <form>
+        <form id="Formulario">
             <label for="nombre">Nombre completo</label>
-            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo">
                 <br>
             <label for="edad">Edad: </label>
-            <input type="edad" name="edad" id="edad" placeholder="Ingresa tu edad">
+            <input type="number" name="edad" id="edad" placeholder="Ingresa tu edad" integer>
             <br>
             <label for="codigo_postal">Codigo Postal: </label>
             <br>
@@ -62,14 +62,14 @@
             <br>
             <br>
             <br>
-            <button type="submit" class="submit-btn">Enviar Formulario</button>
+            <button type="submit" id="enviar">Enviar Formulario</button>
 
         </form>
 
 
     </div>
 </body>
-    <script src="../Dynamics/JS/Lógica">
+    <script src="../Dynamics/JS/Lógica.js">
 
     </script>
 </html>
