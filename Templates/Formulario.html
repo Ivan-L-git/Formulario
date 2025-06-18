@@ -5,11 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario Completo</title>
-    <style>
-        #Contendor{
-            background-color: rgb(43, 228, 52);
-        }
-    </style>
 </head>
 <body>
 
@@ -17,14 +12,17 @@
     <div id="Contenedor">
     
         <h1 style="text-align: center;">Formulario Completo</h1>
-        <form id="Contenedor">
+        <form>
             <label for="nombre">Nombre completo</label>
             <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
                 <br>
             <label for="edad">Edad: </label>
             <input type="edad" name="edad" id="edad" placeholder="Ingresa tu edad">
+            <br>
             <label for="codigo_postal">Codigo Postal: </label>
+            <br>
             <input type="number" name="codigo_postal" id="codigo_postal" placeholder="Son 5 digitos">
+            <br>
             <label for="edad">Género: </label>
             <label>Masculino</label>
             <input type="radio" name="genero" id="masculino" value="masculino">
@@ -53,6 +51,7 @@
                 <option value="mexico">Canadá</option>
                 <option value="mexico">Japón</option>
             </select>
+            <br>
             <label>Comentarios adicionales:</label>
             <br>
             <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe comentarios adicionales"></textarea>
