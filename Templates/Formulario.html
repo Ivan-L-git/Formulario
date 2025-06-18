@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../Statics/Style/Graficos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Completo</title>
+    <style>
+        #Contendor{
+            background-color: rgb(43, 228, 52);
+        }
+    </style>
+</head>
+<body>
+
+
+    <div id="Contenedor">
+    
+        <h1 style="text-align: center;">Formulario Completo</h1>
+        <form id="Contenedor">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre completo" required>
+                <br>
+            <label for="edad">Edad: </label>
+            <input type="edad" name="edad" id="edad" placeholder="Ingresa tu edad">
+            <label for="codigo_postal">Codigo Postal: </label>
+            <input type="number" name="codigo_postal" id="codigo_postal" placeholder="Son 5 digitos">
+            <label for="edad">Género: </label>
+            <label>Masculino</label>
+            <input type="radio" name="genero" id="masculino" value="masculino">
+            <label>Femenino</label>
+            <input type="radio" name="genero" id="femenino" value="femenino">
+            <label>Aguacate (otro)</label>
+            <input type="radio" name="genero" id="otro" value="otro">
+            <br>
+            <label>Intereses (selecciona todo los que apliquen)</label>
+            <br>
+            <label>Tecnología</label>
+            <input type="checkbox" name="intereses" id="tecnologia">
+            <label>Deportes</label>
+            <input type="checkbox" name="intereses" id="deportes">
+            <label>Música</label>
+            <input type="checkbox" name="intereses" id="musica">
+            <label>Arte</label>
+            <input type="checkbox" name="intereses" id="arte">
+            <br>
+            <label>País:</label>
+            <br>
+            <select for="pais" required>
+                <option value="mexico">Mexíco</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="mexico">Brasil</option>
+                <option value="mexico">Canadá</option>
+                <option value="mexico">Japón</option>
+            </select>
+            <label>Comentarios adicionales:</label>
+            <br>
+            <textarea id="comentario" name="comentario" rows="5" cols="40" placeholder="Escribe comentarios adicionales"></textarea>
+            <br>
+            <label>Subir imgaen:</label>
+            <br>
+            <input type="file" id="imagen" name="imagen" accept="image/*">
+
+        </form>
+
+    </div>
+</body>
+    <script src="../Dynamics/JS/Lógica">
+
+    </script>
+</html>
